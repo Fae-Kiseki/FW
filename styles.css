@@ -1,0 +1,88 @@
+/* Reset default styling */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for header */
+  header {
+    background-color: #000;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Styling for main content */
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    color: #000;
+  }
+  
+  .product {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    color: #000;
+    font-size: 18px;
+  }
+  
+  .product p {
+    color: #777;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+  
+  /* Styling for footer */
+  footer {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
